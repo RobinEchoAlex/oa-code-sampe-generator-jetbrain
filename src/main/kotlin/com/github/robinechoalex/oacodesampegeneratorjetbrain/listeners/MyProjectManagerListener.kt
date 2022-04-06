@@ -1,9 +1,9 @@
-package org.jetbrains.plugins.template.listeners
+package com.github.robinechoalex.oacodesampegeneratorjetbrain.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import org.jetbrains.plugins.template.services.MyProjectService
+import com.github.robinechoalex.oacodesampegeneratorjetbrain.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
