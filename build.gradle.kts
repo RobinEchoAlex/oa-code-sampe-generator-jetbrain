@@ -14,6 +14,16 @@ plugins {
     id("org.jetbrains.changelog") version "1.3.1"
     // Gradle Qodana Plugin
     id("org.jetbrains.qodana") version "0.1.13"
+//    // Js Support
+//    kotlin("js") version "1.6.20"
+//    id("org.jetbrains.kotlin.js") version "1.3.50"
+
+
+}
+//
+dependencies {
+    // ...
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.0.1")
 }
 
 group = properties("pluginGroup")

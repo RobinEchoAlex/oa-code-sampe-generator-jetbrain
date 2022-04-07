@@ -15,4 +15,10 @@
         <listener class="com.github.robinechoalex.oacodesampegeneratorjetbrain.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+    <actions>
+        <action id="org.intellij.sdk.action.MyAction" class="org.intellij.sdk.action.MyAction" text="Azure API Call"
+                description="Generate an Azure API Call Sample">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>
